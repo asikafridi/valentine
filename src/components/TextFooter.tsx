@@ -24,7 +24,7 @@ export default function TextFooter() {
       </h1>
 
       {/* Copyright */}
-      <p className="absolute bottom-5 right-5 text-white text-sm opacity-15 hover:opacity-100">
+      <p className="absolute bottom-5 right-5 text-white text-sm opacity-80 hover:opacity-100">
         © {new Date().getFullYear()}{" "}
         <Link href="https://asikafridi.vercel.app/">Made with ❤️ by Ashik Afridi</Link>
       </p>
